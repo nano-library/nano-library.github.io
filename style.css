@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base */
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Layout */
+.container {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Intro */
+.intro {
+    margin: 40px 0;
+    font-size: 1.1rem;
+}
+
+/* Links */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    transition: opacity 0.2s ease;
+}
+
+.links a:hover {
+    opacity: 0.6;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    font-size: 0.85rem;
+    color: #777;
+}
